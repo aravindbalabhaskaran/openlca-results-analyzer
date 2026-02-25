@@ -1,6 +1,6 @@
 # openlca-results-analyzer
 
-Python pipeline to parse openLCA Excel exports and reproduce durability scaling (DM) + PLA lifetime sensitivity (6/10/15 years). Generates clean tables ready for thesis and job portfolio.
+Python pipeline to parse openLCA Excel exports and reproduce durability scaling (DM) + PLA lifetime sensitivity (6/10/15 years). Generates clean tables ready.
 
 ## Example results
 
