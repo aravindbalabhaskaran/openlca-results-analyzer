@@ -30,3 +30,9 @@ Place these files in `data/raw/`:
 pip install pandas openpyxl matplotlib jinja2
 python -m src.build_master
 python -m src.reproduce_dm
+## Break-even analysis (PLA vs ABS)
+
+The tool computes the minimum PLA lifetime required to match ABS impacts under durability scaling.
+Output: `data/processed/PLA_break_even_vs_ABS.csv`
+## Break-even visualization (PLA vs ABS)
+![PLA break-even lifetime](reports/figures/PLA_break_even_lifetime_vs_ABS.png)
