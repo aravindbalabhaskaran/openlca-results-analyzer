@@ -2,6 +2,17 @@
 
 Python pipeline to parse openLCA Excel exports and reproduce durability scaling (DM) + PLA lifetime sensitivity (6/10/15 years). Generates clean tables ready for thesis and job portfolio.
 
+## Example results
+
+### Climate change (GWP100)
+![Climate change - GWP100](reports/figures/climate_change_-_GWP100.png)
+
+### Fossil depletion (FDP)
+![Fossil depletion - FDP](reports/figures/fossil_depletion_-_FDP.png)
+
+### Human toxicity (HTPinf)
+![Human toxicity - HTPinf](reports/figures/human_toxicity_-_HTPinf.png)
+
 ## What it does
 - Reads openLCA Excel exports (ABS / PP / PLA)
 - Normalizes impact results into a master table
